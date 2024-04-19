@@ -1,0 +1,101 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled resource files
+*.res
+
+# Visual Studio Files
+*.user
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vs/
+build/
+*Generated*
+obj
+packages/
+/enc_temp_folder
+.vscode/
+bin/
+Release/
+Debug/
+
+#CMake Build output
+submodules/Build/*
+
+#UITests
+/TestResults/
+!src/UITests/Scripts/AwaitWinRT.dll
+
+#AppPackages
+AppPackages/
+
+# Certificates
+*.pfx
+!src/Photos.App/Photos_TemporaryKey.pfx
+!tools/Windows.Honeycrisp/Windows.Honeycrisp/Windows.Honeycrisp_TemporaryKey.pfx
+!tools/Windows.Honeygold/Windows.Honeygold/Windows.Honeygold_TemporaryKey.pfx
+
+# MBSE working files
+*.cs.tmp
+
+# Async checker generated files
+*async-code-warnings*
+
+# Combined idl files
+**/Combined_Idl.idl
+
+# Generated files
+src/ImageEditorLib/ImageEditor.xaml
+src/Slideshow/SlideshowNavigation.xaml
+src/Slideshow/SlideshowPlaybackToolbar.xaml
+src/Lightbox/InfoPane.xaml
+src/Lightbox/FilmstripItem.xaml
+
+# Copied localized resource files
+src/*/Resources
+
+# Native debug visualization files
+*.natvis
+
+# script artifacts
+scripts/*.txt
+scripts/*.jpg
+
+# Ensure git does not ignore entire folder with similar "name + dot"
+!src/Photos.App
+!src/Photos.App.Collection
+
+# Photos.AutoPlay autogen files
+/src/Photos.AutoPlay/dlldata.c
+/src/Photos.AutoPlay/PhotosAutoPlay_i.c
+/src/Photos.AutoPlay/PhotosAutoPlay_i.h
+/src/Photos.AutoPlay/PhotosAutoPlay_p.c
+/src/Photos.AutoPlay/Photos.AutoPlay.aps
