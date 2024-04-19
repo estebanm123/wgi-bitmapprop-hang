@@ -7,4 +7,4 @@ This sample app showcases a hang with the winrt::Windows::Graphics::Imaging::Bit
 
 My OS version: 23H2 - 22631.3447
 
-I've provided a .heic this repros 100% for me, but we have reports of users experiencing this exact hang on JPG.
+I've provided a HEIC file that this repros 100% for me, but we have reports of users experiencing hangs with the exact same callstack on JPG.
